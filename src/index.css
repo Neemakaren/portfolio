@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Licorice&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Ruthie&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Licorice&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Ruthie&display=swap');
+
+
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+::-webkit-scrollbar-track {
+    background: #A5A5A5;
+}
+
+::-webkit-scrollbar-thumb {
+    /* background: rgb(70,70,70); */
+    background: rgb(237, 11, 49);
+}
+
+@layer components {
+
+    .pulsingButton {
+        position: relative;
+        width: 100px;
+        height: 100px;
+        text-align: center;
+        white-space: nowrap;
+        display: block;
+        padding: 10px;
+        box-shadow: 0 0 0 0 #A5A5A5;
+        background-color: rgb(70,70,70);
+        -webkit-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+        -moz-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+        -ms-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+        animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+        font-size: 1em;
+        font-weight: normal;
+        font-family: sans-serif;
+        text-decoration: none;
+        color: #ffffff;
+        transition: all 1000ms ease-in-out;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      
+   
+      @-webkit-keyframes pulsing {
+        to {
+          box-shadow: 0 0 0 30px rgba(154, 144, 143, 0);
+        }
+      }
+      
+      @-moz-keyframes pulsing {
+        to {
+          box-shadow: 0 0 0 30px rgba(232, 76, 61, 0);
+        }
+      }
+      
+      @-ms-keyframes pulsing {
+        to {
+          box-shadow: 0 0 0 30px rgba(232, 76, 61, 0);
+        }
+      }
+      
+      @keyframes pulsing {
+        to {
+          box-shadow: 0 0 0 30px rgba(232, 76, 61, 0);
+        }
+      }
+}

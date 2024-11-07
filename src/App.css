@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Licorice&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Ruthie&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F5F5F5;
+  transition: smooth;
+}
+
+.logo {
+  padding: 4px;
+  /* box-shadow: 5px 5px 0px rgba(0, 0, 0, .1), -2px -2px 0 #ffffff; */
+  box-shadow: 5px 5px 0px rgba(0, 0, 0, .1), -4px -4px 0 yellow;
+
+}
+
+img {
+    max-width: 100%;
+  
+  }
+
+.maxx {
+    border: 2px solid red;
+}
+
+.image {
+  background-image: url('./assets/img-1.jpg');
+}
+
+
+
+
+
+
+/* Comment-out to have the button continue to pulse on mouseover */
+
+a.pulsingButton:hover {
+  -webkit-animation: none;
+  -moz-animation: none;
+  -ms-animation: none;
+  animation: none;
+  color: #ffffff;
+}
+
+
+/* Animation */
+
+
+
+
+/* .fade {
+  font-family: Arial;
+  font-size: 1em;
+  animation: fadeIn 2s;
+  -webkit-animation: fadeIn 20s;
+  -moz-animation: fadeIn 20s;
+  -o-animation: fadeIn 20s;
+  -ms-animation: fadeIn 20s;
+
+  }
+
+ 
+  
+  
+  @keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+  }
+  
+  @-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+  }
+  
+  @-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+  } */
