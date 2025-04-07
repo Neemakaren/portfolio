@@ -1,53 +1,58 @@
-import { blog1, blog2, blog3, blog4, blog5, blog6, blog7, blog8, blog9, blog10, blog11,blog12, blog14, blog15,img1, img2, img3 } from "../assets/Job-Board-Images";
-import {react, js, html, redux, tailwind, query, firebase, css, bootstrap, figma, git} from '../assets'
+import {
+  css,
+  docker,
+  figma,
+  git,
+  html,
+  javascript,
+  mongodb,
+  node,
+  react,
+  redux,
+  tailwind,
+  Firebase,
+  Appwrite
+} from "../assets";
 
 export const labels = [
   {
     imgUrl: react,
-    name: 'react'
+    name: "react",
   },
   {
-    imgUrl: js,
-    name: 'javascript'
+    imgUrl: javascript,
+    name: "javascript",
   },
   {
     imgUrl: html,
-    name: 'HTML'
+    name: "HTML",
   },
   {
     imgUrl: redux,
-    name: 'redux'
+    name: "redux",
   },
   {
     imgUrl: tailwind,
-    name: 'tailwind'
+    name: "tailwind",
   },
   {
-    imgUrl: query,
-    name: 'react-query'
+    imgUrl: Firebase,
+    name: "Firebase",
   },
   {
-    imgUrl: firebase,
-    name: 'firebase'
+    imgUrl: Appwrite,
+    name: "Appwrite",
   },
   {
     imgUrl: css,
-    name: 'CSS'
-  },
-  {
-    imgUrl: bootstrap,
-    name: 'bootstrap'
+    name: "CSS",
   },
   {
     imgUrl: figma,
-    name: 'figma'
+    name: "figma",
   },
   {
     imgUrl: git,
-    name: 'git'
+    name: "git",
   },
-  // {imgUrl: blog12},
-  // {imgUrl: blog14},
-  // {imgUrl: blog15},
-
-]
+];

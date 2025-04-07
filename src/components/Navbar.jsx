@@ -1,8 +1,11 @@
 import {useState, useRef} from 'react'
-import { AiOutlineClose, AiOutlineLogout } from "react-icons/ai";
+import { AiOutlineClose } from "react-icons/ai";
 
 import { HiMenuAlt3 } from "react-icons/hi";
-import { FaBars, FaTimes } from 'react-icons/fa';
+
+import { HashLink } from 'react-router-hash-link';
+
+
 
 const Navbar = () => {
 
@@ -33,7 +36,7 @@ const Navbar = () => {
           className={`${isOpen ? " flex " : "hidden"} flex-row items-center transition duration-5 z-10  bg-[rgb(70,70,70)] text-[#F5F5F5] cursor-pointer list-none `}>
       <div className="hidden space-x-6 md:flex md:px-2 list-none lg:px-10 text-[1.1em] bg-transparent">
         <li to='/' className="hover:text-[#A5A5A5]">Home</li>
-        <li to='/jobsec' className="hover:text-[#A5A5A5]">About-Me</li>
+        <a href='#about' className="hover:text-[#A5A5A5]">About-Me</a>
         <li to='/blogpage' className="hover:text-[#A5A5A5]">Projects</li>
       </div>
       </div>

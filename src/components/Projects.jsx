@@ -18,7 +18,7 @@ const Projects = ({projects}) => {
  
   return (
     <section className='select-none'>
-      <h2 className='text-center uppercase font-extrabold text-2xl mb-6 font-Cedarville'><mark className='bg-blue-400 px-2 rounded-md shadow-lg'>My Projects</mark></h2>
+      <h2 className='text-center uppercase font-extrabold text-2xl mb-6 font-Cedarville' id='/projects'><mark className='bg-blue-400 px-2 rounded-md shadow-lg'>A small Selection Of My Recent Projects</mark></h2>
     <section className="bg-[#F5F5F5]">
     <div className="py-4 px-2 mx-auto max-w-screen-xl sm:py-4 lg:px-6">
     { isModalVisible && <Modal projects={projects} />}

@@ -14,8 +14,7 @@ body {
 
 .logo {
   padding: 4px;
-  /* box-shadow: 5px 5px 0px rgba(0, 0, 0, .1), -2px -2px 0 #ffffff; */
-  box-shadow: 5px 5px 0px rgba(0, 0, 0, .1), -4px -4px 0 yellow;
+  box-shadow: 5px 5px 0px rgba(0, 0, 0, .1), -2px -2px 0 pink;
 
 }
 
@@ -30,6 +29,9 @@ img {
 
 .image {
   background-image: url('./assets/img-1.jpg');
+  background-repeat: no-repeat;
+  width: 100%;
+  object-fit: cover;
 }
 
 
